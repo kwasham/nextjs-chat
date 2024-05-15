@@ -34,6 +34,8 @@ export function ChatPanel({
   const { submitUserMessage } = useActions()
   const [shareDialogOpen, setShareDialogOpen] = React.useState(false)
 
+  console.log("Checking Re Render from chat panel")
+
   const exampleMessages = [
     {
       heading: 'What are the',
